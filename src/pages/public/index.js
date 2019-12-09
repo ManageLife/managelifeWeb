@@ -1,0 +1,5 @@
+// export { About } from './About'
+export { Auth } from './Auth'
+export { About } from './About'
+export { Home } from './Home'
+export { Partnerships } from './Partnerships'

@@ -1,0 +1,23 @@
+#properties-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 3rem;
+}
+
+#properties-list {
+   width: 75vw;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+#property-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   margin: 0.5rem 0;
+}

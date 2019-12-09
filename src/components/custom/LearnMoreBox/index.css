@@ -1,0 +1,37 @@
+.learn-more-container {
+   height: 100%;
+   width: 100%;
+   background: #d9d9d9;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#learn-more-header-text {
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: #17519e;
+   padding: 0 10%;
+   text-align: left;
+}
+
+#learn-more-text {
+   font-size: 1.25rem;
+   color: #000000;
+   padding: 0 10%;
+   margin: 2.5% 0;
+   text-align: left;
+   font-weight: 400;
+}
+
+#learn-more-button {
+   background: #17519e;
+   text-align: center;
+   color: #ffffff;
+   width: 10rem;
+   padding: 0.5rem 0;
+   cursor: pointer;
+   margin: 2.5% 0 0 10%;
+   text-decoration: none;
+   font-weight: bold;
+}

@@ -1,0 +1,69 @@
+.productsite-footer {
+   width: 100%;
+   height: 20vh;
+   margin: 0;
+   background: #2c2c2c;
+   display: grid;
+   grid-template: 10% 1fr 5% / 5% 1fr 1fr 5%;
+}
+
+#footer-divider1 {
+   grid-area: 2 / 2 / 2 / 2;
+   display: flex;
+   padding-top: 0.5rem;
+}
+
+#footer-divider2 {
+   grid-area: 2 / 3 / 2 / 3;
+   padding-top: 0.5rem;
+   display: flex;
+   justify-content: space-between;
+}
+
+#footer-text {
+   color: #ffffff;
+   font-size: 1rem;
+}
+
+#social-container {
+   text-align: left;
+}
+
+#social-connect {
+   padding-left: 0.5rem;
+}
+
+#social-row {
+   display: flex;
+   flex-direction: row;
+   margin-top: 0.5rem;
+}
+
+#contact-container {
+   padding-left: 5vw;
+}
+
+#download-container {
+   display: flex;
+   flex-direction: row;
+   margin-top: 0.5rem;
+   justify-content: center;
+}
+
+#emphasized-text {
+   color: #ffffff;
+   font-size: 1.15rem;
+   font-style: italic;
+}
+
+.download-button {
+   height: 2.1rem;
+   width: 2.1rem;
+   display: flex;
+   border-radius: 100px;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   background: #a4a8ab;
+   margin: 0 0.25rem;
+}

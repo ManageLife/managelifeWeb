@@ -1,0 +1,43 @@
+#inventory-list-card {
+   width: 60vw;
+   display: flex;
+   flex-direction: column;
+}
+
+.inventory-item {
+   width: 100%;
+   padding: 1rem 0;
+   border-bottom: #ececec 0.5px solid;
+}
+
+#room-name {
+   padding-left: 1rem;
+}
+
+#item {
+   padding-left: 1.5rem;
+   cursor: pointer;
+}
+
+#item-card-placeholder {
+   background: #ececec;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+}
+
+#item-image-container {
+   height: 150px;
+   width: 100%%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#item-image {
+   object-fit: contain;
+   width: 100%;
+   height: auto;
+}

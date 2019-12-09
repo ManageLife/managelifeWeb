@@ -1,0 +1,49 @@
+#feed-card {
+   width: 50vw;
+   display: flex;
+   flex-direction: column;
+   padding: 0 1rem 1rem 1rem;
+}
+
+#feed-edit-row {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+#upper-feedcard-row {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin: 0 0 0.5rem 0;
+}
+
+#feedcard-title-text {
+   font-size: 2rem;
+   color: #17519e;
+   font-weight: 500;
+}
+
+#feedcard-info-text {
+   font-size: 1rem;
+   color: #000000;
+   font-weight: 400;
+}
+
+#lower-feedcard-row {
+   height: 20%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+#placeholder-feed-card {
+   width: 50vw;
+   height: 5rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}

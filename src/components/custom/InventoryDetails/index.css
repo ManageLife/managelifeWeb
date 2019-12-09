@@ -1,0 +1,13 @@
+#item-data-container {
+   height: 50%;
+}
+
+#item-image-container {
+   height: 50%;
+}
+
+#item-image {
+   object-fit: contain;
+   width: 100%;
+   height: auto;
+}

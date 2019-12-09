@@ -1,0 +1,8 @@
+.service-icon-container {
+   height: 7rem;
+   width: 7rem;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

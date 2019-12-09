@@ -1,0 +1,43 @@
+#auth-page-container {
+   width: 100%;
+}
+
+#auth-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#input-auth-form {
+   display: flex;
+   flex-direction: column;
+}
+
+.text-field-auth {
+   width: 25vw;
+}
+
+#login-container {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+#login-button {
+   width: 7rem;
+   height: 3rem;
+   background-color: #17519e;
+   color: #ffffff;
+   margin-bottom: 1rem;
+}
+
+#forgot-password {
+   cursor: pointer;
+   color: #17519e;
+   font-weight: 500;
+}

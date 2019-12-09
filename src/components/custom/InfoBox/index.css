@@ -1,0 +1,48 @@
+.info-box-container {
+   height: 23vh;
+   width: 23vh;
+   border: #000000 1px solid;
+   border-top: #17519e 5px solid;
+   margin: 0 2.5%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   cursor: pointer;
+   text-decoration: none;
+   padding: 0 1.5rem;
+}
+
+#upper-content-container {
+   height: 80%;
+   display: flex;
+   flex-direction: row;
+}
+
+#left-icon-container {
+   width: 35%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+#right-text-container {
+   width: 65%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#right-text {
+   font-size: 1.5rem;
+   font-weight: 400;
+   color: #17519e;
+   text-align: center;
+}
+
+#bottom-icon-container {
+   position: absolute;
+   bottom: 2.5%;
+   right: 5%;
+}
